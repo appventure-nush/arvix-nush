@@ -1,0 +1,1473 @@
+[
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Username",
+        "weak": false,
+        "id": "8e504a3e-2210-48dc-918b-1e8a9eaaeb4f",
+        "x": -95.13770663186102,
+        "y": 87.09145776055942,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": true,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "UID",
+        "weak": false,
+        "id": "ed6fc38d-44d0-4937-a13d-35e2176562a5",
+        "x": 69.21788650691553,
+        "y": 104.949673850924,
+        "type": "attribute"
+      },
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Email",
+        "weak": false,
+        "id": "06fa0f30-8a8c-49f7-ae7f-49da69b75981",
+        "x": -24.53714623226145,
+        "y": -99.61138741358769,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Name",
+        "weak": false,
+        "id": "d6256d3d-a983-42e3-9d8f-b18f19e64a6c",
+        "x": -126.50601560367306,
+        "y": 28.501048309349073,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "About",
+        "weak": false,
+        "id": "74dbd7c0-5de4-4be1-9e69-c734e6be5bd9",
+        "x": -94.55097634136749,
+        "y": -32.55937457774895,
+        "type": "attribute"
+      }
+    ],
+    "name": "User",
+    "weak": false,
+    "id": "4f31b627-9391-434a-ac79-69566b291a0e",
+    "x": -186.27131073614265,
+    "y": 414.1236858580305,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Title",
+        "weak": false,
+        "id": "55cf4223-5dcf-43c0-b184-ed56fc3e794e",
+        "x": 157.1672290371688,
+        "y": -52.956488970578164,
+        "type": "attribute"
+      },
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "PCode",
+        "weak": false,
+        "id": "bd55d824-867b-4c19-a3a2-9342f3bc4608",
+        "x": 241.34708667589916,
+        "y": -27.971240995996766,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [
+          {
+            "key": false,
+            "derived": false,
+            "unique": false,
+            "dataType": "VARCHAR",
+            "dataParam": "",
+            "attributes": [],
+            "name": "Annoucement",
+            "weak": false,
+            "id": "f9861d47-823f-475d-b308-41c84d096a46",
+            "x": 68.06230154212994,
+            "y": -52.907957225169724
+          },
+          {
+            "key": false,
+            "derived": false,
+            "unique": false,
+            "dataType": "VARCHAR",
+            "dataParam": "",
+            "attributes": [],
+            "name": "Time",
+            "weak": false,
+            "id": "80ae0910-bfcc-4d81-897f-dc30429ae3ee",
+            "x": -25.777668774722997,
+            "y": -63.319354217415594
+          }
+        ],
+        "name": "Annoucements",
+        "weak": true,
+        "id": "5bc9cd21-b0e3-445c-8400-75ad33dda9e8",
+        "x": 10.187709523769968,
+        "y": -106.04706461044782,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Year",
+        "weak": false,
+        "id": "f6794f81-f33e-40d6-bdff-1130eb33add7",
+        "x": 234.3444226809346,
+        "y": 58.2196362060202,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "ReportPDF",
+        "weak": false,
+        "id": "c8f67523-f8f5-460a-8213-bfaa094a9372",
+        "x": 130.86021563604186,
+        "y": 154.3575859331832,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Abstract",
+        "weak": false,
+        "id": "87785d42-2e56-4a43-ba92-8f13f210ccc4",
+        "x": 282.08977785771776,
+        "y": 20.53900681015449,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "PosterPDF",
+        "weak": false,
+        "id": "da873f3c-88de-4678-a756-c309afc0ed94",
+        "x": 44.25416518988038,
+        "y": 163.34142923845798,
+        "type": "attribute"
+      }
+    ],
+    "name": "Project",
+    "weak": false,
+    "id": "a20447a7-c0b6-4f61-bd29-6a8bba8c757d",
+    "x": 594.912520126585,
+    "y": 363.24812066882646,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "RID",
+        "weak": false,
+        "id": "a53d1fd0-b92f-4a3c-bd59-08cf838a86c9",
+        "x": 162.32796147222183,
+        "y": -12.835650834950968,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Title",
+        "weak": false,
+        "id": "37f80a07-f60b-4f88-a7fc-f87df9270dc5",
+        "x": 115.572641010025,
+        "y": 40.249319130128384,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Authors",
+        "weak": true,
+        "id": "161a4832-f519-4a10-a7a4-2397dec052fb",
+        "x": -117.16290762364491,
+        "y": 58.053360464044886,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Bibtex",
+        "weak": false,
+        "id": "194f9bd4-b2b8-432c-9328-32f5096bb867",
+        "x": 171.98219635950824,
+        "y": -68.45625664063297,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Type",
+        "weak": false,
+        "id": "8735b072-3891-4503-9724-157c34353959",
+        "x": -73.30980539825444,
+        "y": -68.01229618583734,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Publisher",
+        "weak": false,
+        "id": "12b8f7a3-b70a-4805-a1f7-4c932efd5caf",
+        "x": 65.62578081445731,
+        "y": -75.45367381707008,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Pages",
+        "weak": false,
+        "id": "4e22ebf9-df28-4fd6-b6b8-5b9ac92f2282",
+        "x": 6.635461622250673,
+        "y": -99.77961038739146,
+        "type": "attribute"
+      }
+    ],
+    "name": "Reference",
+    "weak": false,
+    "id": "3fbab18c-48a5-4146-911d-da37947a2a81",
+    "x": 381.1271094129451,
+    "y": 120.52433526060094,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Number",
+        "weak": false,
+        "id": "45d08760-4be1-483d-940a-62816b79d2ae",
+        "x": 15.072211840270217,
+        "y": 98.85761695611531,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Title",
+        "weak": false,
+        "id": "316f8499-2b44-4122-a4d3-6c997207ecac",
+        "x": 112.33970449252001,
+        "y": -21.472711594858197,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Description",
+        "weak": false,
+        "id": "3df07d83-c6b4-4b1d-8b69-ea9dd46e7c37",
+        "x": 102.77918813104179,
+        "y": 57.64180818077227,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Completed",
+        "weak": false,
+        "id": "6c35f0ac-7d11-46a1-b439-0f12ef52fdcf",
+        "x": -84.63474731439237,
+        "y": 78.39612361977271,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Deadline",
+        "weak": false,
+        "id": "92273679-3758-4054-9238-2b6f33ac63ca",
+        "x": -141.74683903007656,
+        "y": 23.792157890362773,
+        "type": "attribute"
+      }
+    ],
+    "name": "Task",
+    "weak": true,
+    "id": "41487808-d794-49cc-be59-b6a1bbe2941d",
+    "x": 465.13759827837885,
+    "y": 640.7807331080197,
+    "type": "entity"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Part Of",
+    "weak": true,
+    "id": "fd9c08b2-0e4c-4bfb-ad0d-4cc92ab9a500",
+    "x": 526.1564508773982,
+    "y": 512.3992600439991,
+    "nodes": [
+      "Task",
+      "Project"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "M",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "N",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Works On",
+    "weak": false,
+    "id": "3f89ba37-e8ed-46cc-babf-92600c1a96da",
+    "x": 380.5491073281968,
+    "y": 396.2155507277539,
+    "nodes": [
+      "Project",
+      "Student"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "M",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Has Read",
+        "weak": false,
+        "id": "bdef5e74-64fb-48e1-bcfd-171135e6805b",
+        "x": -61.23411136100478,
+        "y": -34.93632818141805,
+        "type": "attribute"
+      }
+    ],
+    "name": "Read",
+    "weak": false,
+    "id": "1810dbec-5f4b-4038-8f9c-655598b44ffc",
+    "x": -38.575831229221905,
+    "y": 100.24539276390371,
+    "nodes": [
+      "User",
+      "Reference"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "M",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "N",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Cited",
+    "weak": false,
+    "id": "c3eec8fc-5f1c-4a12-bd0c-4fb53995ce30",
+    "x": 468.2326259810073,
+    "y": 220.26623070400404,
+    "nodes": [
+      "Reference",
+      "Project"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "M",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Assigned",
+    "weak": false,
+    "id": "1c47192c-b0bc-4b90-bd65-201328a0c99c",
+    "x": 184.39055803021293,
+    "y": 474.1956209508187,
+    "nodes": [
+      "User",
+      "Task"
+    ],
+    "type": "relationship"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Date",
+        "weak": false,
+        "id": "a1807b5b-4549-46de-800e-fefabd7ee4e4",
+        "x": -113.59268196072958,
+        "y": 36.31662560000041,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Text",
+        "weak": false,
+        "id": "f2f0e6b8-65ec-436b-b970-5632cda0079a",
+        "x": -59.03153599811128,
+        "y": 82.99839181470202,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Title",
+        "weak": false,
+        "id": "67902be0-5496-4fb6-82c7-59a2d0931176",
+        "x": -123.27223286049838,
+        "y": -45.509598558138975,
+        "type": "attribute"
+      },
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "LNumber",
+        "weak": false,
+        "id": "ac97c74c-d5e9-434d-80ab-3595fce34ea9",
+        "x": 40.96223661265989,
+        "y": 91.2255182045488,
+        "type": "attribute"
+      }
+    ],
+    "name": "Log",
+    "weak": true,
+    "id": "604ed960-501c-4e60-af3a-d37d957b83e6",
+    "x": 99.8926627478125,
+    "y": 630.9969231864932,
+    "type": "entity"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "N",
+        "role": "",
+        "total": true,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Made By",
+    "weak": false,
+    "id": "0ab873c2-dbb7-460b-83bc-3bedf114a22f",
+    "x": -3.5308116131890586,
+    "y": 525.6686016679489,
+    "nodes": [
+      "User",
+      "Log"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Part Of",
+    "weak": true,
+    "id": "6b939ed9-4031-458a-bf5b-211e7d01c6c5",
+    "x": 335.77381445410595,
+    "y": 508.8461846866233,
+    "nodes": [
+      "Log",
+      "Project"
+    ],
+    "type": "relationship"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Year",
+        "weak": false,
+        "id": "80cf78c0-9b8c-4c6a-b175-85124252ebbb",
+        "x": 120.59932305655761,
+        "y": 50.60001271276661,
+        "type": "attribute"
+      }
+    ],
+    "name": "Student",
+    "weak": false,
+    "id": "78b8f12b-df2e-429c-8eae-6cd96e4b98d2",
+    "x": 161.92055707366998,
+    "y": 385.68366159593245,
+    "type": "entity"
+  },
+  {
+    "attributes": [],
+    "name": "Mentor",
+    "weak": false,
+    "id": "e50e81cf-b555-4444-8c72-2ad505039d3c",
+    "x": 84.88071298556093,
+    "y": 202.07273401030287,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Admin",
+        "weak": false,
+        "id": "2387a5ca-d9ce-4a1b-8158-c3d714871cec",
+        "x": 33.234177076571086,
+        "y": -53.50414192316788,
+        "type": "attribute"
+      }
+    ],
+    "name": "Teacher",
+    "weak": false,
+    "id": "033764bd-83a1-41ac-8f02-0bbe43fca341",
+    "x": 88.08047423139868,
+    "y": 313.41338293369574,
+    "type": "entity"
+  },
+  {
+    "disjoint": false,
+    "associative": false,
+    "specs": [
+      {
+        "amm": "",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Family Tree: User",
+    "weak": false,
+    "id": "ae4233ef-dbd7-43b8-9798-6fbe2df28f33",
+    "x": -122.37212729859618,
+    "y": 353.93584688441126,
+    "nodes": [
+      "User",
+      "Student",
+      "Teacher",
+      "Mentor"
+    ],
+    "type": "specialization"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "M",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Mentors",
+    "weak": false,
+    "id": "ed74e756-bab2-4b91-a714-8e92e87daa10",
+    "x": 354.50914523381357,
+    "y": 241.68295033368724,
+    "nodes": [
+      "Mentor",
+      "Project"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "EmergencyContact",
+    "weak": false,
+    "id": "edc84ef8-0ccc-4052-86e5-1d1fbadfa02a",
+    "x": 235.37403515691346,
+    "y": 286.7598289827112,
+    "nodes": [
+      "Student",
+      "Teacher"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "Previous",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "Next",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Continues",
+    "weak": false,
+    "id": "41e67adf-e0ac-4f81-abfe-7da664f9601e",
+    "x": 755.5130209245322,
+    "y": 458.50522262063316,
+    "nodes": [
+      "Project",
+      "Project"
+    ],
+    "type": "relationship"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "AwardTypes",
+        "weak": true,
+        "id": "c274798b-4f02-4835-961e-6fafba8f1e08",
+        "x": -105.12016512776313,
+        "y": 20.48919984498002,
+        "type": "attribute"
+      }
+    ],
+    "name": "Competition",
+    "weak": false,
+    "id": "17fff2aa-2636-4e20-a74f-5963fdd47954",
+    "x": 1144.8284375217468,
+    "y": -68.40711743754255,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "website",
+        "weak": false,
+        "id": "27273db8-c48f-424c-8174-f0a1c94c6748",
+        "x": -33.09125924929231,
+        "y": -81.19822705939876,
+        "type": "attribute"
+      }
+    ],
+    "name": "Publisher",
+    "weak": false,
+    "id": "85edd453-5936-4424-8dd0-026621d0f539",
+    "x": 1332.6363460343457,
+    "y": -109.99747785803103,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "ID",
+        "weak": false,
+        "id": "b27d2525-fa4e-4482-8b46-c9da0a5bebf6",
+        "x": 136.76560920298652,
+        "y": -24.390465600828918,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Name",
+        "weak": false,
+        "id": "ece96ae0-6207-4400-aea1-10b27d807087",
+        "x": 123.24683781878957,
+        "y": 58.68679852903162,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "About",
+        "weak": false,
+        "id": "4ed9986c-053d-4e05-b9ca-4722e9d67107",
+        "x": -123.05267214857577,
+        "y": -28.133039604877013,
+        "type": "attribute"
+      }
+    ],
+    "name": "SubmissionPlace",
+    "weak": false,
+    "id": "6abc0a6e-d020-4372-8788-35a036e3f906",
+    "x": 886.830610950776,
+    "y": 40.39274573624235,
+    "type": "entity"
+  },
+  {
+    "disjoint": true,
+    "associative": false,
+    "specs": [
+      {
+        "amm": "",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "d",
+    "weak": false,
+    "id": "aaba812e-75f5-49f6-858d-ef2ca9439c14",
+    "x": 1066.9816350912074,
+    "y": -137.29490079809142,
+    "nodes": [
+      "SubmissionPlace",
+      "Competition",
+      "Publisher"
+    ],
+    "type": "specialization"
+  },
+  {
+    "disjoint": true,
+    "associative": false,
+    "specs": [
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Family Tree: Publication",
+    "weak": false,
+    "id": "e2d5a31e-a485-4304-bd13-eafef66a3ea7",
+    "x": 1472.7194129875252,
+    "y": -130.92730226528582,
+    "nodes": [
+      "Publisher",
+      "Journal",
+      "Conference"
+    ],
+    "type": "specialization"
+  },
+  {
+    "attributes": [],
+    "name": "Journal",
+    "weak": false,
+    "id": "7b4fb564-6792-46b3-a01b-88c7a1b76d6f",
+    "x": 1620.0950053925365,
+    "y": -78.00925909472974,
+    "type": "entity"
+  },
+  {
+    "attributes": [],
+    "name": "Conference",
+    "weak": false,
+    "id": "193deffd-c2f2-440b-95bd-d97b3b5aefcf",
+    "x": 1567.235821568873,
+    "y": -206.33181043287314,
+    "type": "entity"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Date",
+        "weak": false,
+        "id": "5fe54058-8297-4516-92c6-fadcd8aba1d6",
+        "x": -93.69482244435846,
+        "y": -55.2047603658865,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "PosterPDF",
+        "weak": false,
+        "id": "a4d67e81-796d-456e-87ed-6525d4809467",
+        "x": 118.27180684084794,
+        "y": 102.45236528700883,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "MiscMaterials",
+        "weak": false,
+        "id": "9ffa59ec-c55f-414a-9d66-ccd2f6aeb5e5",
+        "x": -113.30888957470074,
+        "y": 0.821368144966641,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "ReportPDF",
+        "weak": false,
+        "id": "67a3d05b-e491-432c-803f-ec8f1b9a14b5",
+        "x": 135.19348573972854,
+        "y": 33.165422618830064,
+        "type": "attribute"
+      },
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "ID",
+        "weak": false,
+        "id": "b30c6ebd-45bf-4d63-838c-56ecd122ad45",
+        "x": 5.54195371721903,
+        "y": 74.07671733103808,
+        "type": "attribute"
+      }
+    ],
+    "name": "Submission",
+    "weak": true,
+    "id": "5ac431b4-a2f8-4561-82e0-b735351bba4f",
+    "x": 891.7868028094628,
+    "y": 195.2858327121745,
+    "type": "entity"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "N",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "M",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Makes",
+    "weak": false,
+    "id": "67aa1533-2ba3-4039-b0cb-81677586ee03",
+    "x": 725.4074488435924,
+    "y": 266.10138090409146,
+    "nodes": [
+      "Project",
+      "Submission",
+      "Student"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": true,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "To",
+    "weak": false,
+    "id": "d67c4298-96ae-4fc2-a7b0-98913acaf00e",
+    "x": 891.2463500092542,
+    "y": 120.0587891633408,
+    "nodes": [
+      "Submission",
+      "SubmissionPlace"
+    ],
+    "type": "relationship"
+  },
+  {
+    "attributes": [
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "ID",
+        "weak": false,
+        "id": "54614371-db37-469c-b6a0-0551d8d6ecc6",
+        "x": 41.674140938734354,
+        "y": 63.77491259772884,
+        "type": "attribute"
+      }
+    ],
+    "name": "Accomplishment",
+    "weak": true,
+    "id": "cb786187-dee2-4052-a992-5ac1bbee4dfa",
+    "x": 1305.4886866531892,
+    "y": 161.4052285568547,
+    "type": "entity"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": true,
+        "optional": false
+      }
+    ],
+    "attributes": [],
+    "name": "Achieves",
+    "weak": false,
+    "id": "16325cc0-49fc-4233-8864-c8182adfe243",
+    "x": 1053.411683180312,
+    "y": 156.69962129950227,
+    "nodes": [
+      "Submission",
+      "Accomplishment"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [
+          {
+            "key": false,
+            "derived": false,
+            "unique": false,
+            "dataType": "VARCHAR",
+            "dataParam": "",
+            "attributes": [],
+            "name": "name",
+            "weak": false,
+            "id": "63207374-351f-422e-bfad-1cf01b976b4c",
+            "x": -18.582993406286505,
+            "y": 69.31719070662584
+          },
+          {
+            "key": false,
+            "derived": false,
+            "unique": false,
+            "dataType": "VARCHAR",
+            "dataParam": "",
+            "attributes": [],
+            "name": "prize",
+            "weak": false,
+            "id": "0ea235e0-712e-4d3e-bf59-da202c0382c9",
+            "x": 76.66182053218836,
+            "y": 71.29585284026716
+          }
+        ],
+        "name": "Awards",
+        "weak": true,
+        "id": "4134bb03-bb27-411e-ac9d-3698925b0e02",
+        "x": -141.4125729733703,
+        "y": -4.018315612681519,
+        "type": "attribute"
+      }
+    ],
+    "name": "At",
+    "weak": false,
+    "id": "4fc0b3b7-dc94-47fe-b9e0-10ad6ffc5b3e",
+    "x": 1274.9209256919225,
+    "y": 33.44674139447841,
+    "nodes": [
+      "Competition",
+      "Accomplishment"
+    ],
+    "type": "relationship"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      },
+      {
+        "amm": "1",
+        "role": "",
+        "total": false,
+        "optional": false
+      }
+    ],
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "doi",
+        "weak": false,
+        "id": "7726dd61-55dd-468c-bdc0-83dd4a6185db",
+        "x": 72.98706324641567,
+        "y": 68.35852981642978,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "url",
+        "weak": false,
+        "id": "8dfefeef-f6d7-4399-b795-40ca769351f5",
+        "x": 113.41738696831908,
+        "y": -1.021920918643346,
+        "type": "attribute"
+      }
+    ],
+    "name": "Published",
+    "weak": false,
+    "id": "daf91f20-7794-46f0-b11b-ab4e3edbf6e6",
+    "x": 1409.8095651203269,
+    "y": 27.343061977782497,
+    "nodes": [
+      "Accomplishment",
+      "Publisher"
+    ],
+    "type": "relationship"
+  },
+  {
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Name",
+        "weak": false,
+        "id": "c26d2fcc-81d0-46a1-adb3-972fc379c737",
+        "x": -46.93317948211993,
+        "y": 88.30218946152534,
+        "type": "attribute"
+      },
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Address",
+        "weak": false,
+        "id": "6b81c429-6fcb-432b-ad17-5c2ecab9c92d",
+        "x": -95.60665005984612,
+        "y": 29.314987025992806,
+        "type": "attribute"
+      },
+      {
+        "key": true,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "OID",
+        "weak": false,
+        "id": "f0cb0e37-04ca-4182-801c-a6d00fc753d7",
+        "x": 48.34747201138401,
+        "y": 75.93610894786809,
+        "type": "attribute"
+      }
+    ],
+    "name": "Organisation",
+    "weak": false,
+    "id": "c9c19e6b-5dd0-426c-9b56-4d90fe895616",
+    "x": -247.92550480281835,
+    "y": 704.2832510925926,
+    "type": "entity"
+  },
+  {
+    "associative": false,
+    "specs": [
+      {
+        "amm": "N",
+        "role": "",
+        "total": true,
+        "optional": false
+      },
+      {
+        "amm": "M",
+        "role": "",
+        "total": true,
+        "optional": false
+      }
+    ],
+    "attributes": [
+      {
+        "key": false,
+        "derived": false,
+        "unique": false,
+        "dataType": "VARCHAR",
+        "dataParam": "",
+        "attributes": [],
+        "name": "Department",
+        "weak": false,
+        "id": "5b4e3ba5-26a5-46e4-90ea-25f5fd0f23c2",
+        "x": 80.0067593005796,
+        "y": 59.99098654147235,
+        "type": "attribute"
+      }
+    ],
+    "name": "From",
+    "weak": false,
+    "id": "73768f88-f087-4bf0-ac84-b75f9888abe3",
+    "x": -224.80306279112952,
+    "y": 580.0706003957183,
+    "nodes": [
+      "User",
+      "Organisation"
+    ],
+    "type": "relationship"
+  }
+]
